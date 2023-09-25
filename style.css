@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px
+}
+
+.clock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #39d87f;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.name {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #39d87f;
+}
+
+.time {
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.date {
+  opacity: 0.5;
+}
